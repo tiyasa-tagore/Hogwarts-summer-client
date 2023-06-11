@@ -3,15 +3,15 @@ import logo from '../../../../public/logo.jpg'
 
 const Footer = () => {
     return (
-      <footer className="bg-gray-600 text-white py-2">
-        <div className="container mx-auto flex flex-col md:flex-row items-center   ml-60 gap-10">
+      <footer className="bg-#10141b outline text-white py-2 m-5 ">
+        <div className="container mx-auto flex flex-col md:flex-row items-center  gap-10 ml-52">
           <div className="flex items-center justify-center md:justify-start">
             <img
               src={logo}
               alt="Logo"
               className="h-12 w-12 mr-2"
             />
-            <h2 className="text-lg font-semibold">Hogwarts School of <br /> Witchcraft and Wizardry</h2>
+            <h2 className="text-gray-400  text-lg font-semibold">Hogwarts School of <br /> Witchcraft and Wizardry</h2>
           </div>
           <div className="flex flex-col md:flex-row items-center mt-4 md:mt-0">
             <div className="md:mr-8">

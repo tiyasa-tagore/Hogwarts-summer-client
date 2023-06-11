@@ -1,13 +1,13 @@
 
 import { Link } from 'react-router-dom';
 import logo from '../../../../public/logo.jpg'
-
 import { useContext } from "react";
 import { AuthContext } from '../../../providers/AuthProvider';
 // import useCart from '../hooks/useCart';
 
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext);
+    
     // const [cart] = useCart();
 
     const handleLogOut = () => {
