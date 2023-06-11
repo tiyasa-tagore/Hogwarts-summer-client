@@ -3,8 +3,8 @@ import logo from '../../../../public/logo.jpg'
 
 const Footer = () => {
     return (
-      <footer className="bg-gray-600 text-white py-8">
-        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
+      <footer className="bg-gray-600 text-white py-2">
+        <div className="container mx-auto flex flex-col md:flex-row items-center   ml-60 gap-10">
           <div className="flex items-center justify-center md:justify-start">
             <img
               src={logo}

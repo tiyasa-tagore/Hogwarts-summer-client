@@ -31,7 +31,7 @@ const Navbar = () => {
 {
             user ? <>
                 <span>{user?.displayName}</span>
-                {user.photoURL && <img src={user.photoURL} alt="" className="h-12 rounded-full border-2 border-primary" />}
+                {user.photoURL && <img src={user.photoURL} alt="" className="h-12 rounded-full border-primary" />}
 
                 <button onClick={handleLogOut} className="btn btn-ghost">LogOut</button>
             </> : <>
@@ -68,8 +68,12 @@ const Navbar = () => {
                 { user && 
                 <div className="tooltip tooltip-bottom" data-tip={user.displayName}> 
                 <div className="avatar">
-                    <div className="w-12 rounded-full ml-4">
-                        <img src={user?.photoURL} />
+                    <div className=" w-12 rounded-full ml-4">
+                        {/* <img src={user?.photoURL} /> <br /> */}
+                        
+                    </div>
+                    <div>
+                    {/* <span>{user?.displayName}</span> */}
                     </div>
                 </div>
                 </div>
