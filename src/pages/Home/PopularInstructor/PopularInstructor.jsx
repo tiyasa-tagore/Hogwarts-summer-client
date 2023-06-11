@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import classData from "../../../../public/instructors.json"
 import SectionTitle from "../../../components/SecTitle";
 
-const PopularClass = () => {
+const PopularInstructor = () => {
     const [popularClasses, setPopularClasses] = useState([]);
 
     useEffect(() => {
@@ -34,4 +34,4 @@ const PopularClass = () => {
     );
 };
 
-export default PopularClass;
+export default PopularInstructor;
