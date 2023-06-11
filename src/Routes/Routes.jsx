@@ -28,7 +28,7 @@ import Error from "../pages/Error/Error";
       ]
     },
     {
-        path: 'error',
+        path: '*',
         element: <Error></Error>
     }
   ]);
