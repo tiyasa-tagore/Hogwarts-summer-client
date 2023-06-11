@@ -1,0 +1,57 @@
+[
+    {
+      "_id": 1,
+      "image": "wand.jpg",
+      "name": "Magic Wand",
+      "rating": 4.5
+    },
+    {
+      "_id": 2,
+      "image": "broomstick.jpg",
+      "name": "Nimbus 2000 Broomstick",
+      "rating": 4.8
+    },
+    {
+      "_id": 3,
+      "image": "quill.jpg",
+      "name": "Enchanted Quill",
+      "rating": 4.2
+    },
+    {
+      "_id": 4,
+      "image": "cloak.jpg",
+      "name": "Invisibility Cloak",
+      "rating": 4.9
+    },
+    {
+      "_id": 5,
+      "image": "cauldron.jpg",
+      "name": "Standard Cauldron",
+      "rating": 4.6
+    },
+    {
+      "_id": 6,
+      "image": "book.jpg",
+      "name": "Spellbook of Advanced Charms",
+      "rating": 4.4
+    },
+    {
+      "_id": 7,
+      "image": "potion.jpg",
+      "name": "Amortentia Love Potion",
+      "rating": 4.7
+    },
+    {
+      "_id": 8,
+      "image": "robe.jpg",
+      "name": "Wizarding Robe",
+      "rating": 4.3
+    },
+    {
+      "_id": 9,
+      "image": "badge.jpg",
+      "name": "House Crest Badge Set",
+      "rating": 4.1
+    }
+  ]
+
