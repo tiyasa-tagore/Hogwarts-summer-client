@@ -52,9 +52,9 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className='flex gap-5'>
-                    <img className='h-[40px] w-[55px]' src={logo} alt="" />
-                    <p className="normal-case text-2xl font-semibold">HOGWARTS <br />
-                    <span className='text-xl text-black font-semibold'>School of Witchcraft and Wizardry</span>  </p>
+                  <Link to='/'><img className='h-[40px] w-[55px]' src={logo} alt="" /></Link>  
+                  <Link to='/'>   <p className="normal-case text-2xl font-semibold">HOGWARTS <br />
+                    <span className='text-xl text-black font-semibold'>School of Witchcraft and Wizardry</span>  </p></Link> 
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">
