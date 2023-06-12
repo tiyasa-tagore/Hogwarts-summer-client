@@ -54,7 +54,7 @@ const Navbar = () => {
                 <div className='flex gap-5'>
                   <Link to='/'><img className='h-[40px] w-[55px]' src={logo} alt="" /></Link>  
                   <Link to='/'>   <p className="normal-case text-2xl font-semibold">HOGWARTS <br />
-                    <span className='text-xl text-black font-semibold'>School of Witchcraft and Wizardry</span>  </p></Link> 
+                    <span className='text-xl text-gray-200 font-semibold'>School of Witchcraft and Wizardry</span>  </p></Link> 
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -64,7 +64,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 {/* <input type="checkbox" className="toggle" checked /> */}
-                <Link to='/dashboard/uHome'><b>Dashboard</b></Link>
+                <Link  to='/dashboard/uHome'><b className='text-base-100 text-lg'>Dashboard</b></Link>
                 { user && 
                 <div className="tooltip tooltip-bottom" data-tip={user.displayName}> 
                 <div className="avatar">
