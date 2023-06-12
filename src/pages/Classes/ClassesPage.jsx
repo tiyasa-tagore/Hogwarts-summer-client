@@ -38,6 +38,7 @@ const ClassesPage = () => {
             >
               {isLoggedIn ? 'Select' : ' Select'}
             </button>
+            <button className='px-4 py-2 rounded-md bg-red-500 text-white font-semibold'>Add to Cart</button>
           </div>
         ))}
       </div>

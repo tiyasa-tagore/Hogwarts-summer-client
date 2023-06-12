@@ -64,7 +64,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 {/* <input type="checkbox" className="toggle" checked /> */}
-                <Link  to='/dashboard/uHome'><b className='text-base-100 text-lg'>Dashboard</b></Link>
+                <Link  to='/dashboard'><b className='text-base-100 text-lg'>Dashboard</b></Link>
                 { user && 
                 <div className="tooltip tooltip-bottom" data-tip={user.displayName}> 
                 <div className="avatar">
