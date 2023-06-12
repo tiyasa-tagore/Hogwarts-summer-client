@@ -11,7 +11,8 @@ import ClassesPage from "../pages/Classes/ClassesPage";
 import PrivateRoute from "./PrivateRoute";
 import Secret from "../pages/Shared/Secret/Secret";
 import Dashboard from "../Layout/Dashboard"
-import UserHome from "../pages/Dashboard/UserHome/UserHome";
+import Additem from "../pages/Dashboard/AddItem/Additem";
+import AdminHome from "../pages/Dashboard/AdminHome/AdminHome";
 
 
   export const router = createBrowserRouter([
@@ -51,9 +52,14 @@ import UserHome from "../pages/Dashboard/UserHome/UserHome";
         element:<PrivateRoute> <Dashboard></Dashboard> </PrivateRoute>,
         children:[
             {
-                path: 'userhome',
-                element: <UserHome></UserHome>
+                path: 'additem',
+                element: <Additem></Additem>
+            },
+            {
+                path: 'adminhome',
+                element: <AdminHome></AdminHome>
             }
+
         ]
 
     },
